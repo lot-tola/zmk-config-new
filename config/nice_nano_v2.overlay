@@ -1,0 +1,10 @@
+
+/ {
+    zephyr,user {
+        /* nothing needed here */
+    };
+};
+
+&radio {
+    tx-power = <8>;
+};
